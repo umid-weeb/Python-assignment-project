@@ -1,0 +1,9 @@
+{
+  "memberships": {
+    "None": { "discount": 0, "free_delivery": false },
+    "Bronze": { "discount": 5, "free_delivery": false },
+    "Silver": { "discount": 10, "free_delivery": false },
+    "Gold": { "discount": 15, "free_delivery": true },
+    "Business": { "discount": 25, "free_delivery": true }
+  }
+}

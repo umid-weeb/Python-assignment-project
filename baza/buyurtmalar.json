@@ -1,0 +1,150 @@
+{
+    "orders": [
+        {
+            "id": 1,
+            "customer_type": "guest",
+            "membership": null,
+            "price": 2700000,
+            "date": "2026-01-03"
+        },
+        {
+            "id": 2,
+            "customer_type": "guest",
+            "membership": "Gold",
+            "price": 2125000,
+            "date": "2026-01-03"
+        },
+        {
+            "id": 3,
+            "customer_type": "guest",
+            "membership": null,
+            "delivery": {
+                "type": "courier",
+                "address": "",
+                "phone": "907913633",
+                "delivery_time": "2-3 kun"
+            },
+            "price": 5500000,
+            "date": "2026-01-03"
+        },
+        {
+            "id": 4,
+            "delivery": "courier",
+            "price": 1900000,
+            "date": "2026-01-03"
+        },
+        {
+            "id": 5,
+            "delivery": "pickup",
+            "price": 1900000,
+            "date": "2026-01-03"
+        },
+        {
+            "id": 6,
+            "delivery": {
+                "type": "courier",
+                "address": "Andijon ulugnor ",
+                "phone": "907913633",
+                "delivery_time": "2-3 kun"
+            },
+            "price": 1900000,
+            "date": "2026-01-03"
+        },
+        {
+            "id": 7,
+            "delivery": {
+                "type": "courier",
+                "address": "Andijon",
+                "phone": "8907813633",
+                "delivery_time": "2-3 kun"
+            },
+            "price": 1900000,
+            "date": "2026-01-03"
+        },
+        {
+            "id": 8,
+            "delivery": {
+                "type": "courier",
+                "address": "Andijon",
+                "phone": "90897887",
+                "delivery_time": "2-3 kun"
+            },
+            "price": 1900000,
+            "date": "2026-01-03"
+        },
+        {
+            "id": 9,
+            "customer_membership": null,
+            "items": [
+                {
+                    "id": 2,
+                    "name": "Artel Blender",
+                    "price": 2500000,
+                    "count": 1
+                }
+            ],
+            "delivery": {
+                "type": "courier",
+                "address": "andijon",
+                "phone": "907913633",
+                "delivery_time": "2-3 kun ichida"
+            },
+            "price": 2500000,
+            "date": "2026-01-03 18:45:41"
+        },
+        {
+            "id": 10,
+            "customer_membership": null,
+            "items": [
+                {
+                    "id": 5,
+                    "name": "Ukam",
+                    "price": 1,
+                    "count": 1
+                }
+            ],
+            "delivery": {
+                "type": "courier",
+                "address": "Andijon",
+                "phone": "+998907913633",
+                "delivery_time": "2-3 kun ichida"
+            },
+            "price": 1,
+            "date": "2026-01-05 00:16:43"
+        },
+        {
+            "id": 11,
+            "customer_membership": null,
+            "items": [
+                {
+                    "id": 6,
+                    "name": "Akmaljon",
+                    "price": 100000,
+                    "count": 1
+                }
+            ],
+            "delivery": {
+                "type": "pickup",
+                "branch": "Toshkent - Chilonzor filiali"
+            },
+            "price": 100000,
+            "date": "2026-01-11 11:43:51"
+        },
+        {
+            "id": 12,
+            "items": [
+                {
+                    "id": 8,
+                    "name": "MacBok m4 Pro",
+                    "price": 19000000,
+                    "count": 1,
+                    "sid": 1
+                }
+            ],
+            "price": 19000000,
+            "date": "2026-01-16 22:21:29",
+            "customer_membership": null,
+            "delivery": "pickup"
+        }
+    ]
+}
