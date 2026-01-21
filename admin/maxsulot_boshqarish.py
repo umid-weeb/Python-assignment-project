@@ -10,17 +10,17 @@ products = products_data.get("products", [])
 
 
 def mahsulot_qoshish():
-    """Yangi mahsulot qo'shish"""
+    """bu yerda yangi mahsulot qoshiladiva togridan togri jsonga yozilib boradi """
     cls()
-    print("\n=== YANGI MAHSULOT ===")
-    name = input("📦 Nomi: ").strip()
+    print("\n~~~ YANGI MAHSULOT ~~~".center(50, "-"))
+    name = input(" Nomi: ").strip()
     if not name:
-        print("❌ Nom bo'sh bo'lishi mumkin emas")
+        print("\033[101m Nom bo'sh bo'lishi mumkin emas\033[0m")
         return
 
-    category = input("📂 Kategoriya: ").strip()
-    price = get_int_input("💰 Narxi (so'm): ", min_val=1)
-    quantity = get_int_input("📊 Miqdori: ", min_val=1)
+    category = input(" Kategoriya: ").strip()
+    price = get_int_input(" Narxi (so'm): ", min_val=1)
+    quantity = get_int_input(" Miqdori: ", min_val=1)
 
     new_id = max([p["id"] for p in products], default=0) + 1
 
@@ -34,15 +34,15 @@ def mahsulot_qoshish():
     })
 
     write_json(PRODUCTS_FILE, {"products": products})
-    print("✅ Mahsulot muvaffaqiyatli qo'shildi")
+    print("\033[102m Mahsulot muvaffaqiyatli qo'shildi\033[0m")
 
 
 def omborni_korish():
     """Omborni ko'rish"""
     cls()
-    print("\n=== OMBOR HOLATI ===")
+    print("\n=== OMBOR HOLATI ===".center(50, "-"))
     if not products:
-        print("📭 Ombor bo'sh")
+        print("Ombor bo'sh")
         return
 
     print(f"{'ID':<5} {'Nomi':<25} {'Kategoriya':<15} {'Narxi':<12} {'Miqdori':<8}")
@@ -52,7 +52,7 @@ def omborni_korish():
     total_value = 0
 
     for p in products:
-        status = "✅" if p["quantity"] > 5 else "⚠️" if p["quantity"] > 0 else "❌"
+        status = "" if p["quantity"] > 5 else "⚠️" if p["quantity"] > 0 else "❌"
         print(f'{status} {p["id"]:<3} {p["name"]:<25} {p["category"]:<15} '
               f'{p["price"]:>10} so\'m {p["quantity"]:>5} ta')
         total_items += p["quantity"]

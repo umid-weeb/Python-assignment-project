@@ -22,8 +22,8 @@ def admin_login():
 
 
 def parolni_almashtirish():
-    """Admin parolini almashtirish"""
-    global ADMIN_PASSWORD
+    """Bu yerda admin ni kirishparolini ozgartiriladi mobodoessimdan chiqib qolsa """
+    global ADMIN_PASSWORD #buni global ozgaruvchi deb aytmasak bu tanimedi buni local ozgaruvchu deb biladi
     from yadro import sozlamalar
 
     urinish = 0

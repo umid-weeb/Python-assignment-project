@@ -5,14 +5,14 @@
             "name": "iPhone 17 Pro",
             "category": "Telefon",
             "price": 1900000,
-            "quantity": 115
+            "quantity": 111
         },
         {
             "id": 2,
             "name": "Artel Blender",
             "category": "Oshxona texnikasi",
             "price": 2500000,
-            "quantity": 132
+            "quantity": 131
         },
         {
             "id": 3,
@@ -57,7 +57,7 @@
             "name": "MacBok m4 Pro",
             "category": "Texnika",
             "price": 19000000,
-            "quantity": 14,
+            "quantity": 12,
             "created_at": "2026-01-16 21:32:44"
         }
     ]

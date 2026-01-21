@@ -145,6 +145,78 @@
             "date": "2026-01-16 22:21:29",
             "customer_membership": null,
             "delivery": "pickup"
+        },
+        {
+            "id": 13,
+            "customer_membership": null,
+            "items": [
+                {
+                    "id": 8,
+                    "name": "MacBok m4 Pro",
+                    "price": 19000000,
+                    "count": 1
+                }
+            ],
+            "delivery": {
+                "type": "pickup",
+                "branch": "Farg'ona - Markaz filiali"
+            },
+            "price": 19000000,
+            "date": "2026-01-17 01:05:18"
+        },
+        {
+            "id": 14,
+            "customer_membership": null,
+            "items": [
+                {
+                    "id": 8,
+                    "name": "MacBok m4 Pro",
+                    "price": 19000000,
+                    "count": 1
+                }
+            ],
+            "delivery": {
+                "type": "pickup",
+                "branch": "Farg'ona - Markaz filiali"
+            },
+            "price": 19000000,
+            "date": "2026-01-17 01:10:09"
+        },
+        {
+            "id": 15,
+            "customer_membership": null,
+            "items": [
+                {
+                    "id": 2,
+                    "name": "Artel Blender",
+                    "price": 2500000,
+                    "count": 1
+                }
+            ],
+            "delivery": {
+                "type": "pickup",
+                "branch": "Toshkent - Chilonzor filiali"
+            },
+            "price": 2500000,
+            "date": "2026-01-22 00:26:47"
+        },
+        {
+            "id": 16,
+            "customer_membership": null,
+            "items": [
+                {
+                    "id": 1,
+                    "name": "iPhone 17 Pro",
+                    "price": 1900000,
+                    "count": 1
+                }
+            ],
+            "delivery": {
+                "type": "pickup",
+                "branch": "Toshkent - Chilonzor filiali"
+            },
+            "price": 1900000,
+            "date": "2026-01-22 00:39:06"
         }
     ]
 }
