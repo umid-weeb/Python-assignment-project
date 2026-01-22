@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "ism": "Muslima",
+            "telefon": "+998944671105",
+            "parol": "1234qwer"
+        },
+        {
+            "ism": "Umid",
+            "telefon": "+998907913633",
+            "parol": "11092009"
+        },
+        {
+            "ism": "Umidjo",
+            "telefon": "+998907913633",
+            "parol": "11092009"
+        },
+        {
+            "ism": "Umid",
+            "telefon": "+998907913633",
+            "parol": "11092009"
+        }
+    ]
+}

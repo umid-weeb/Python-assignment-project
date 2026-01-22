@@ -112,7 +112,7 @@ def maxsulotlarni_korish():
     """Mahsulotlarni ko'rsatish"""
     cls()
     print("\n" + "=" * 70)
-    print("📦 MAHSULOTLAR RO'YXATI".center(70))
+    print(" MAHSULOTLAR RO'YXATI".center(70))
     print("=" * 70)
 
     if not products:
@@ -129,7 +129,7 @@ def maxsulotlarni_korish():
             categories[cat].append(p)
 
     if not categories:
-        print("📭 Sotuvda mahsulotlar yo'q")
+        print(" Sotuvda mahsulotlar yo'q")
         return
 
     for cat, items in sorted(categories.items()):
@@ -146,21 +146,3 @@ def maxsulotlarni_korish():
             print(f'{p["id"]:>3}. {p["name"]:<35} {p["price"]:>10,} so\'m | {stock}')
 
     print("=" * 70)
-def buyurtmalar_tarixi(): 
-    print("\n" + "_" * 60)
-    print("BUYURTMALAR TARIXI".center(60))
-    print("~" * 60)
-
-    if not orders:
-        print("Buyurtmalar yo'q")
-        return
-
-    total_revenue = 0
-    unknown_text = "Nomalum"
-
-    for order in orders:
-        print(f"\nID: #{order['id']}") 
-        print(f"Mijoz: {order.get('mijoz_ismi', unknown_text)}")
-        order_date = order.get('date', unknown_text)
-        print(f"Sana: {order_date}")
-        print(f"Summa: {order.get('price', 0):,} so'm")

@@ -1,12 +1,13 @@
-# admin/parol.py
-"""Admin parol boshqaruvi"""
+
 
 import time
 from yadro import ADMIN_PASSWORD, cls
 
 
 def admin_login():
-    """Admin autentifikatsiyasi"""
+
+
+
     cls()
     attempts = 3
     while attempts > 0:
@@ -48,3 +49,7 @@ def parolni_almashtirish():
                 time.sleep(60)
                 print("\nBlok yechildi. Admin panelga qaytdingiz")
                 return
+
+
+
+

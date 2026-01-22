@@ -1,5 +1,4 @@
 # admin/admin_menyu.py
-"""Admin menyusi""" 
 from yadro.input_tekshir import get_choice
 from yadro.util import cls  #bu yadrodan cls yani tozalash funksiyasini va get_choice ni chaqirib olyapmiz
 from .parol import admin_login, parolni_almashtirish #bu parol.py dan admin_login va parolni_almashtirish funksiyalarini chaqirib olyapmiz
@@ -9,7 +8,7 @@ from .statistika import view_statistics #bu statistika.py dan view_statistics fu
 
 
 def admin_menu(): #bu admin menyusi funksiyasi
-    """Bu admin  menyusi adminga tegishli barcha funksiyalar manashu yerda chaqirilgan  """
+    """Bu admin  menyusi adminga tegishli funksiyalar manashu yerda chaqirilgan  """
     cls() #ekranni tozalash
      #admin login funksiyasini chaqirib uni tekshiradi agar false bolsa return qiladi
     if not admin_login(): # agar admin_login funksiyasi false bolsa

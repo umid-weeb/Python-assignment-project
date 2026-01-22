@@ -217,6 +217,26 @@
             },
             "price": 1900000,
             "date": "2026-01-22 00:39:06"
+        },
+        {
+            "id": 17,
+            "customer_membership": null,
+            "items": [
+                {
+                    "id": 2,
+                    "name": "Artel Blender",
+                    "price": 2500000,
+                    "count": 1
+                }
+            ],
+            "delivery": {
+                "type": "courier",
+                "address": "Andijon",
+                "phone": "+998907913633",
+                "delivery_time": "2-3 kun ichida"
+            },
+            "price": 2500000,
+            "date": "2026-01-22 14:18:58"
         }
     ]
 }
